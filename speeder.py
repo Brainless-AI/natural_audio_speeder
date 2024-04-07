@@ -18,7 +18,7 @@ def audio_speed_up(audio_path, output_path, max_speed, split_segment_length=10):
 
   # Example usage:
   merge_final_audio_segments(processing_dir, output_path)
-  print('Merged the final audio segments')
+  print('Merged the final audio segments!!!')
   shutil.rmtree("audio_segments")
   shutil.rmtree("processing_segments")
 
