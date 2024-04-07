@@ -92,6 +92,7 @@ def get_progressive_speeding(input_dir, processing_dir, max_speed):
     # 2: Constant speed section
     output_segment_dir = os.path.join(processing_dir, '2')
     os.makedirs(output_segment_dir, exist_ok=True)
+    output_segment_path = os.path.join(output_segment_dir, 'segment-0.wav')
     file = os.path.join(input_dir, '2', 'segment-0.wav')
     stretch_audio(file, output_segment_path, ratio=(1/max_speed))
     # will remove trailing zeros and save the file
