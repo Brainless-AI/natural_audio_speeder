@@ -1,1 +1,4 @@
 pydub
+soundfile
+numpy
+audiostretchy[all]
